@@ -10,3 +10,13 @@ setTimeout(() => {
 }, 0);
 
 console.log('Finishing app');
+
+// let add = (a, b) => {
+//     let total = a + b;
+
+//     return total;
+// };
+
+// let res = add(3, 8);
+
+// console.log(res);

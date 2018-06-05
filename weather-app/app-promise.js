@@ -1,3 +1,9 @@
+// TODO
+// 1. Add default location feature (additional flag, fs module)
+// 2. Try some additional info
+// 3. Convert co Celsius by default
+// 4. Add emoji and formated output
+
 const yargs = require('yargs');
 const axios = require('axios');
 

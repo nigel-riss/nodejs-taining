@@ -4,24 +4,31 @@ const pug = require('pug');
 
 let app = express();
 
-// app.set('view engine', 'hbs');
-app.set('view engine', 'pug');
+hbs.registerPartials(__dirname + '/views/partials');
+app.set('view engine', 'hbs');
+// app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/public'));
 
+hbs.registerHelper('getCurrentYear', () => {
+    return new Date().getFullYear();
+});
+
+hbs.registerHelper('screamIt', (text) => {
+    return text.toUpperCase();
+});
+
 app.get('/', (req, res) => {
-    res.render('home.pug', {
+    res.render('home.hbs', {
         pageTitle: 'Home Page',
-        currentYear: new Date().getFullYear(),
         welcomeMessage: 'Hello Dear User!'
     })
 });
 
 app.get('/about', (req, res) => {
     // res.send('About Page');
-    // res.render('about.hbs');
-    res.render('about.pug', {
-        pageTitle: 'About Page',
-        currentYear: new Date().getFullYear()
+    res.render('about.hbs', {
+    // res.render('about.pug', {
+        pageTitle: 'About Page'
     });
 });
 

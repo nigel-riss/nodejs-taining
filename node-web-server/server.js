@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home Page',
         welcomeMessage: 'Hello Dear User!'
-    })
+    });
 });
 
 app.get('/about', (req, res) => {
@@ -50,6 +50,12 @@ app.get('/about', (req, res) => {
         pageTitle: 'About Page'
     });
 });
+
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio.hbs', {
+        pageTitle: 'Portfolio'
+    });
+})
 
 app.get('/bad', (req, res) => {
     res.send({

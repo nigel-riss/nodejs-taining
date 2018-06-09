@@ -25,3 +25,7 @@ Wed Jun 06 2018 00:13:10 GMT+0200 (Russia TZ 1 Standard Time): GET http://localh
 Sat Jun 09 2018 11:46:18 GMT+0200 (GMT+02:00): GET http://localhost/
 Sat Jun 09 2018 11:46:18 GMT+0200 (GMT+02:00): GET http://localhost/favicon.ico
 Sat Jun 09 2018 11:47:01 GMT+0200 (GMT+02:00): GET http://localhost/
+Sat Jun 09 2018 15:35:42 GMT+0200 (GMT+02:00): GET http://localhost/
+Sat Jun 09 2018 15:35:46 GMT+0200 (GMT+02:00): GET http://localhost/portfolio
+Sat Jun 09 2018 15:35:48 GMT+0200 (GMT+02:00): GET http://localhost/about
+Sat Jun 09 2018 15:35:49 GMT+0200 (GMT+02:00): GET http://localhost/

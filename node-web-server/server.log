@@ -22,3 +22,6 @@ Wed Jun 06 2018 00:06:55 GMT+0200 (Russia TZ 1 Standard Time): GET http://localh
 Wed Jun 06 2018 00:07:03 GMT+0200 (Russia TZ 1 Standard Time): GET http://localhost/help
 Wed Jun 06 2018 00:08:29 GMT+0200 (Russia TZ 1 Standard Time): GET http://localhost/help
 Wed Jun 06 2018 00:13:10 GMT+0200 (Russia TZ 1 Standard Time): GET http://localhost/help.html
+Sat Jun 09 2018 11:46:18 GMT+0200 (GMT+02:00): GET http://localhost/
+Sat Jun 09 2018 11:46:18 GMT+0200 (GMT+02:00): GET http://localhost/favicon.ico
+Sat Jun 09 2018 11:47:01 GMT+0200 (GMT+02:00): GET http://localhost/

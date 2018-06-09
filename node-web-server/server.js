@@ -3,6 +3,7 @@ const hbs = require('hbs');
 const pug = require('pug');
 const fs = require('fs');
 
+const port = process.env.port || 8000;
 let app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -56,6 +57,6 @@ app.get('/bad', (req, res) => {
     });
 });
 
-app.listen(8000, () => {
-    console.log('Sever is up on port 8000');
+app.listen(port, () => {
+    console.log(`Sever is up on port ${port}`);
 });
